@@ -13,4 +13,27 @@ h3 {
 .index-body {
    background:  rgb(98, 145, 247);
    text-align: center;
+   padding: 160px 20px;
+}
+
+.index-body  h1 {
+   font-size: 40px;
+   margin: 20px;
+}
+
+.index-body h2 { 
+    font-size: 50px;
+}
+
+.btn-primary {
+    background: rgb(121, 121, 121);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 20px;
+}
+
+.body {
+    background:  rgb(98, 145, 247);
 }
