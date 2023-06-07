@@ -9,3 +9,8 @@ h3 {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Playfair', serif; 
 }
+
+.index-body {
+   background:  rgb(98, 145, 247);
+   text-align: center;
+}
