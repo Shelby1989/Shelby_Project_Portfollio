@@ -1,0 +1,11 @@
+h1,h2 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair', serif; 
+}
