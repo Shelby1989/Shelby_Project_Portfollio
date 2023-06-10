@@ -76,3 +76,8 @@ h3 {
         transform: rotate(0.0deg)
     }
 }
+
+#navbar-links :hover {
+    font-size: 25px;
+}
+
