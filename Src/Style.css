@@ -81,3 +81,56 @@ h3 {
     font-size: 25px;
 }
 
+.homepage-link {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.about-paragraphs {
+    background: rgb(121, 121, 121);
+    color: black;
+}
+
+.about-me-body {
+    background-color: rgb(98, 145, 247);
+}
+
+.email-link {
+    color:blue;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+.padded-boxes {
+    display:flex;
+    flex-wrap:wrap;
+    gap:2rem;
+}
+
+.padded-boxes > * {
+    width: 100%;
+    background: silver;
+    border-radius: .4rem;
+}
+
+.padded-boxes .heading {
+    background: rgb(51, 51, 197);
+    margin: 0;
+    padding: 1rem;
+    border-top-left-radius: .4rem;
+    border-top-right-radius: .4rem;
+}
+
+.padded-boxes .padded {
+    padding: .1rem 1rem;
+}
+
+@media (min-width:768px) {
+    .padded-boxes > * {
+        width: calc(50% - 1rem);
+    }
+}
