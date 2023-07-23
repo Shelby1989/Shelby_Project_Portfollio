@@ -11,6 +11,10 @@ h3 {
     margin-bottom: 50px;
 }
 
+h4, h5 {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
 .index-body {
    background:  rgb(98, 145, 247);
    text-align: center;
@@ -113,7 +117,7 @@ h3 {
 }
 
 .padded-boxes > * {
-    width: 100%;
+    width: 75%;
     background: silver;
     border-radius: .4rem;
 }
@@ -124,6 +128,7 @@ h3 {
     padding: 1rem;
     border-top-left-radius: .4rem;
     border-top-right-radius: .4rem;
+    
 }
 
 .padded-boxes .padded {
@@ -136,3 +141,19 @@ h3 {
     }
 }
 
+.link {
+    margin: 5px;
+}
+
+p {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 100px;
+}
+
+.padded-boxes {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 350px;
+}
