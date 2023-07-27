@@ -92,11 +92,6 @@ h4, h5 {
     color: blue;
 }
 
-.about-paragraphs {
-    background: rgb(121, 121, 121);
-    color: black;
-}
-
 .about-me-body {
     background-color: rgb(98, 145, 247);
 }
@@ -108,6 +103,7 @@ h4, h5 {
 
 #contact {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .padded-boxes {
@@ -118,21 +114,29 @@ h4, h5 {
 
 .padded-boxes > * {
     width: 75%;
-    background: silver;
+    background: white;
     border-radius: .4rem;
+
+
 }
 
 .padded-boxes .heading {
-    background: rgb(51, 51, 197);
+    background: rgba(51, 51, 197, 0.712);
     margin: 0;
     padding: 1rem;
     border-top-left-radius: .4rem;
     border-top-right-radius: .4rem;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .padded-boxes .padded {
     padding: .1rem 1rem;
+}
+
+.padded {
+    font-family: 'Dancing Script', cursive;
+    background-color: silver;
 }
 
 @media (min-width:768px) {
@@ -235,4 +239,12 @@ p {
 
 .space {
     opacity: 0;
+}
+
+.weather-app {
+    background-color: white;
+    }
+
+    .weather-app-link {
+        margin-top: 175px;
 }
