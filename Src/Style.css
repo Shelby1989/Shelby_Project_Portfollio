@@ -113,11 +113,8 @@ h4, h5 {
 }
 
 .padded-boxes > * {
-    width: 75%;
     background: white;
     border-radius: .4rem;
-
-
 }
 
 .padded-boxes .heading {
@@ -243,8 +240,17 @@ p {
 
 .weather-app {
     background-color: white;
+    border-radius: 0.4rem;
     }
 
     .weather-app-link {
         margin-top: 175px;
+}
+
+.Accomplishments {
+    border-radius: 0.4rem;
+}
+
+.plus-certificate {
+    border-radius: 0.4rem;
 }
